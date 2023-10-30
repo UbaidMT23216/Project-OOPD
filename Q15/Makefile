@@ -1,16 +1,16 @@
 
-#This file Will compile and debug the source code  "Question2.cpp"
+#This file Will compile and debug the source code  "Q15.cpp"
 # Makefile for compiling and debugging a C++ program
 
 # Compiler and flags
 CC = g++
 CFLAGS = -std=c++20 -Wall
 
-SRCS = Q1_5.cpp
+SRCS = Q15.cpp
 OBJS = $(SRCS:.cpp=.o)
 DEBUG_OBJS = $(SRCS:.cpp=_debug.o)
 
-TARGET = Q1_5
+TARGET = Q15
 
 DEBUG_TARGET = Question_DEBUG
 
