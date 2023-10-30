@@ -6,11 +6,11 @@
 CC = g++
 CFLAGS = -std=c++20 -Wall
 
-SRCS = Q15.cpp
+SRCS = Q1-5.cpp
 OBJS = $(SRCS:.cpp=.o)
 DEBUG_OBJS = $(SRCS:.cpp=_debug.o)
 
-TARGET = Q15
+TARGET = Q1-5
 
 DEBUG_TARGET = Question_DEBUG
 
